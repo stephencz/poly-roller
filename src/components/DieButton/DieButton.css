@@ -1,9 +1,19 @@
 .dice-roller-wrapper button
 {
+  border: none;
+  border-radius: 200px;
+  background-color: #8e8e8e;
+
   width: 100px;
   height: 100px;
 
   margin: 0px 20px 20px 20px;
+}
+
+.dice-roller-wrapper button:hover
+{
+  background-color: #fff;
+
 }
 
 .dice-roller-wrapper button.die-button-d2
