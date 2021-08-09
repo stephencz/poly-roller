@@ -1,0 +1,67 @@
+.dice-roller-wrapper button
+{
+  width: 100px;
+  height: 100px;
+
+  margin: 0px 20px 20px 20px;
+}
+
+.dice-roller-wrapper button.die-button-d2
+{
+
+}
+
+.dice-roller-wrapper button.die-button-d4
+{
+
+}
+
+.dice-roller-wrapper button.die-button-d6
+{
+  
+}
+
+.dice-roller-wrapper button.die-button-d8
+{
+  
+}
+
+.dice-roller-wrapper button.die-button-d10
+{
+  
+}
+
+.dice-roller-wrapper button.die-button-d12
+{
+  
+}
+
+.dice-roller-wrapper button.die-button-d20
+{
+  
+}
+
+.dice-roller-wrapper button.die-button-d100
+{
+
+}
+
+@media screen and (max-width: 680px) {
+
+  .dice-roller-wrapper button
+  {
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+@media screen and (max-height: 660px) {
+  
+  .dice-roller-wrapper button
+  {
+    width: 50px;
+    height: 50px;
+  }
+
+}

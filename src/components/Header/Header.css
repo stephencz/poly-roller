@@ -1,0 +1,23 @@
+.header-wrapper
+{
+
+  box-sizing: border-box;
+  background-color: #262626;
+
+  width: 100vw;
+  height: auto;
+
+  padding: 20px;
+}
+
+.header-wrapper .brand
+{
+  font-family: 'Source Sans Pro', sans-serif;;
+  font-size: 2rem;
+  color: #efefef;
+}
+
+.header-wrapper .brand .brand-color
+{
+  color: #bf0404;
+}

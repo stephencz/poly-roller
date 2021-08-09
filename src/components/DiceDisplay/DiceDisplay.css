@@ -1,0 +1,65 @@
+.dice-display-wrapper
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+
+  color: #efefef;
+  font-family: 'Source Sans Pro', sans-serif;;
+
+  flex-grow: 1;
+
+  width: 100vw;
+}
+
+.dice-display-wrapper:hover
+{
+  color: #8e8e8e;
+}
+
+.roll-last
+{
+  font-size: 10rem;
+}
+
+.roll-total
+{
+  font-size: 2rem;
+  color: #bf0404;
+}
+
+.dice-display-wrapper:hover .roll-total
+{
+  color: #620000;
+}
+
+@media screen and (max-width: 460px) {
+
+  .roll-last
+  {
+    font-size: 4rem;
+  }
+
+  .roll-total
+  {
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-height: 660px) {
+
+  .roll-last
+  {
+    font-size: 4rem;
+  }
+
+  .roll-total
+  {
+    font-size: 2rem;
+  }
+
+}

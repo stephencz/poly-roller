@@ -1,0 +1,16 @@
+.app-wrapper 
+{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+
+  background-color: #262626;;
+
+  width: 100vw;
+  height: 100vh;
+
+}
