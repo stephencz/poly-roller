@@ -36,10 +36,7 @@ const DieButton = (props) => {
   }
 
   return (
-    <button 
-      className={"die-button-d" + props.sides }
-      onClick={ handleClick }
-    >
+    <button onClick={ handleClick } >
       { props.sides }
     </button>
   );
